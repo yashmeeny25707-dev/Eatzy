@@ -1,4 +1,4 @@
-# Eatzy 🍔🚚  
+# Eatzy 
 A simple and stylish food delivery website built using **HTML** and **CSS**.  
 
 Eatzy brings your favourite meals straight to your door with ease and style!  
