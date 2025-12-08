@@ -23,26 +23,35 @@
 </header>
 
 <div class="container">
-    <h1 style="text-align:center; margin:3rem 0; color:#6A1B9A;">Get in Touch</h1>
-    <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Email">
-        <input type="tel" placeholder="Phone">
-        <textarea placeholder="Message" rows="5"></textarea>
-        <button class="btn">Send Message</button>
+    <h1 style="text-align:center; margin:3rem 0; color:#6A1B9A; font-style:italic;">Get in Touch</h1>
+
+    <form class="contact-form">
+        <label for="name" style="font-style:italic;">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required style="font-style: italic;">
+
+        <label for="email" style="font-style:italic;">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required style="font-style: italic;">
+
+        <label for="message" style="font-style:italic;">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required style="font-style: italic;"></textarea>
+
+        <button type="submit" class="btn" style="margin-top:1rem; padding:0.6rem 1.2rem; font-size:0.9rem; font-style:italic;">Send Message</button>
     </form>
+
     <div style="text-align:center; margin:3rem 0; color:#555;">
-        <p><strong>Email:</strong> support@eatzy.com</p>
-        <p><strong>Phone:</strong> +91 98765 43210</p>
-        <p><strong>Address:</strong> Mumbai, India</p>
+        <p style="font-style:italic;"><strong>Email:</strong> support@eatzy.com</p>
+        <p style="font-style:italic;"><strong>Phone:</strong> +91 98765 43210</p>
+        <p style="font-style:italic;"><strong>Address:</strong> Mumbai, India</p>
     </div>
 </div>
 
 <footer>
-    <p>© 2025 Eatzy | support@eatzy.com | +91 98765 43210</p>
+    <p style="font-style:italic;">© 2025 Eatzy | support@eatzy.com | +91 98765 43210</p>
 </footer>
+<script src="javascript.js"></script>
 </body>
 </html>
+
 
 
 
